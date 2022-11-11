@@ -1,0 +1,15 @@
+[Nemo Action]
+
+Name=Copy Path
+
+Dependencies=xclip
+
+Comment=Copy the path of the selected files or directories.
+
+Exec=<Copy_Path_helper.sh "%F">
+
+Icon-Name=edit-copy-symbolic.symbolic
+
+Selection=s
+
+Extensions=any
